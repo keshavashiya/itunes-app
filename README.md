@@ -48,9 +48,9 @@ The template includes an example (displaying fake user data) from UI components 
 
 - [`app/components`](app/components): presentational components
 - [`app/config`](app/config): configuration of the application
-- [`App/containers`](App/containers): container components, i.e. the application's screens
-- [`App/assets`](App/Assets): assets (image, audio files, ...) used by the application
-- [`App/navigators`](App/navigators): react navigation navigators 
+- [`app/scenes`](app/scenes): container components, i.e. the application's screens
+- [`app/assets`](app/Assets): assets (image, audio files, ...) used by the application
+- [`app/navigators`](app/navigators): react navigation navigators 
 - [`app/services`](app/services): application services, e.g. API clients
 - [`app/utils`](app/utils): Util methods and constants
 - [`app/themes`](app/themes): base styles for the application
