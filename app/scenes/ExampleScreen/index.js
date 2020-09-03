@@ -129,7 +129,11 @@ class ExampleScreen extends React.Component {
                 <Result>{get(this.props.user, 'quote')}</Result>
               </SeparatedView>
             )}
-            <CustomButton onPress={this.requestFetchUser()} title="Refresh" />
+            {/* <CustomButton onPress={this.requestFetchUser()} title="Refresh" /> */}
+            <CustomButton
+              onPress={() => this.props.navigation.navigate('MusicScreen')}
+              title="Search Music"
+            />
           </View>
         )}
       </Container>
