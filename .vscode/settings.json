@@ -1,15 +1,16 @@
 {
-    "workbench.colorCustomizations": {
-        "[keshav]": {
-            "statusBar.background": "#486357",
-            "statusBar.foreground": "#c8e9c5"
-        },
-        "[keshavashiya]": {
-            "statusBar.background": "#385357",
-            "statusBar.foreground": "#d7e9c4"
-        },
-        "activityBar.background": "#48145F",
-        "titleBar.activeBackground": "#641C85",
-        "titleBar.activeForeground": "#FEFCFE"
-    }
+  "workbench.colorCustomizations": {
+    "[keshav]": {
+      "statusBar.background": "#486357",
+      "statusBar.foreground": "#c8e9c5"
+    },
+    "[keshavashiya]": {
+      "statusBar.background": "#385357",
+      "statusBar.foreground": "#d7e9c4"
+    },
+    "activityBar.background": "#48145F",
+    "titleBar.activeBackground": "#641C85",
+    "titleBar.activeForeground": "#FEFCFE"
+  },
+  "deno.enable": false
 }
